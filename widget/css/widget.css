@@ -1,0 +1,33 @@
+.widget {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 1em;
+  border: 1px #5BC7D0 solid;
+  background-color: white;
+  /*padding: 1em;*/
+  margin: 1em;
+  width: 15em;
+}
+
+.widget-head {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  background-color: #e9f6fc;
+}
+
+.widget-head-div {
+  display:inline-block;
+  width: 33%;
+  vertical-align: bottom;
+  padding: 0.5em;
+  overflow: auto;
+}
+
+.widget-body {
+  padding: 0.5em;
+}
+
+.widget-footer {
+  padding: 0.5em;
+}
