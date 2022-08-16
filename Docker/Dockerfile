@@ -1,8 +1,11 @@
 FROM alpine
 
+# Adding some comments
+
 WORKDIR /opt
 
 COPY site site
+
 COPY default.conf /etc/nginx/http.d/
 
 RUN apk add nginx
